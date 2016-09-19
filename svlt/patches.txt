@@ -1,0 +1,4 @@
+execute:frappe.delete_doc('DocType', 'Vishal Transport Bill') # 2016-07-15
+execute:frappe.delete_doc('DocType','Vishal Transport Bills') # 2016-07-16
+execute:frappe.delete_doc('DocType','Vishal Transport Bill') # 2016-07-17
+execute:frappe.delete_doc('DocType','Vishal Transport Bill') # 2016-07-17

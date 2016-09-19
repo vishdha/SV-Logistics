@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include svlt *.css
+recursive-include svlt *.csv
+recursive-include svlt *.html
+recursive-include svlt *.ico
+recursive-include svlt *.js
+recursive-include svlt *.json
+recursive-include svlt *.md
+recursive-include svlt *.png
+recursive-include svlt *.py
+recursive-include svlt *.svg
+recursive-include svlt *.txt
+recursive-exclude svlt *.pyc
