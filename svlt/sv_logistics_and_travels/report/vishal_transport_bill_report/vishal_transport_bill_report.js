@@ -3,6 +3,14 @@
 
 frappe.query_reports["Vishal Transport Bill Report"] = {
 	"filters": [
+			{
+			"fieldname":"company",
+			"label": __("Company"),
+			"fieldtype": "Link",
+			"options": "Company",
+			"default": frappe.defaults.get_user_default("Company"),
+			"reqd": 1
+		},
 		{
 			fieldname: "sv_vehicle",
 			label: __("Vehicle"),

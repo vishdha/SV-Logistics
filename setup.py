@@ -16,7 +16,7 @@ setup(
 	name='svlt',
 	version=version,
 	description='Empowering Logistics and Travels Firm',
-	author='SV Tech',
+	author='Vishal Dhayagude',
 	author_email='vishaldhayagude07@gmail.com',
 	packages=find_packages(),
 	zip_safe=False,
